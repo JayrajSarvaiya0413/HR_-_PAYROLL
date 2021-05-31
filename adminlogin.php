@@ -10,6 +10,7 @@
         <style>
             body{
                 background-image: url(image/3.jpg);
+                background-repeat:no-repeat;
                 max-width:100;
                 height: auto;
 
