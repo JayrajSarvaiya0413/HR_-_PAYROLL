@@ -10,6 +10,9 @@
         <style>
             body{
                 background-image: url(image/3.jpg);
+                max-width:100;
+                height: auto;
+
             }
             input[type="text"], input[type="password"],select{
                 height:20px;
