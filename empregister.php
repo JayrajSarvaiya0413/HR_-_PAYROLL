@@ -5,7 +5,7 @@ $host = 'b7e9vpcz6pwigs7koahx-mysql.services.clever-cloud.com:3306';
         $db_name = 'b7e9vpcz6pwigs7koahx';
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($host, $user, $password, $db_name);
 // Check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
