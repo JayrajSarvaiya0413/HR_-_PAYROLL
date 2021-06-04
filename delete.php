@@ -1,14 +1,14 @@
 <?php
 
-include "dbConn.php"; // Using database connection file here
+include "database.php"; // Using database connection file here
 
 $id = $_GET['id']; // get id through query string
 
-$del = mysqli_query($db,"delete from employee where id = '$id'"); // delete query
+$del = mysqli_query($conn,"delete from employee where id = '$id'"); // delete query
 
 if($del)
 {
-    mysqli_close($db); // Close connection
+    mysqli_close($conn); // Close connection
     header("location:view.php"); // redirects to all records page
     exit; 
 }
