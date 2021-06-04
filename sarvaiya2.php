@@ -18,6 +18,6 @@
             header("location: main.php");  
         }  
         else{  
-            header("location: acclogin.php");  \
+            header("location: acclogin.php");  
         }     
 ?> 
